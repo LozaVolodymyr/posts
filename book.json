@@ -1,0 +1,29 @@
+{
+	"title": "My book",
+	"isbn": "978-3-16-148410-0",
+	"author": "Dima",
+	"plugins": ["youtube", "disqus", "language-picker", "tabs", "sectionx", "bublbe", "image-captions", "sharing"],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "PPPPP"
+        },
+		"image-captions": {
+          "caption": "_CAPTION_"
+		},
+        "sharing": {
+            "facebook": false,
+            "twitter": false,
+            "google": false,
+            "weibo": false,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook", "google", "twitter", "vk"
+            ]
+        }
+    },
+	"styles": {
+	    "website": "styles/mystyle.css"
+	},
+	"maxIndexSize": 100000000000
+}
